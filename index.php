@@ -6,5 +6,6 @@
     $idade = 36;
     $nome =  "Renato Capelani"
     $Altura = 1.82;
-    $solteiro = false;
+    //$solteiro = false;
+    
     ?>
