@@ -1,6 +1,28 @@
     <?php
     //Comentários em PHP - Linha
     /*
+                    git --version
+
+                    git config --global user.name "renatocapelani"
+                    git config --global user.email "renato.capelani@hotmail.com"
+
+                    git commit -m "Primeiro Commit"
+
+                    git init
+
+                    git add index.php
+
+                    git commit -m "Primeiro Commit"
+
+                    echo "# PHP" >> README.md
+                    git init
+                    git add README.md
+                    git commit -m "first commit"
+                    git branch -M main
+                    git remote add origin https://github.com/renatocapelani/PHP.git
+                    git push -u origin main
+
+
     */
     //echo "Hello World - Meu nome é Renato Capelani";
     $idade = 36;
@@ -47,7 +69,8 @@
         // || OU ou OR
         // && E ou AND
         // % Resto
-        // . Concatenar
+        // . Concatenar (PHP)
+        // + Concatenar (Demais Linguagens)
 
 
         if ($media => 6){
@@ -56,4 +79,32 @@
             echo "Média Reprovado";
         }
 
+
+        //Extrutura de repetição
+        //Exemplo de Concatenação em PHP
+        $nome = Teste;
+        echo "<br> <br> Renato" . $nome . "Capelani" . "<br>"; 
+
+        //Loop PHP While - Do While
+        $contadoraA= 0;
+        do{
+            $contadoraA++;
+        }while($contadoraA <10);
+
+
+
+        $contadoraB=0;
+        while($contadoraB < 10){
+            $contadoraB++;
+        }
+
+        // Loop PHP For - Descubrir se o número é par
+        $contador = 0 ;
+        for ($i = 0; $i < 10; $i++){
+            if($i % 2 == 0 ){
+                echo "<p> " . $i . " é par <p>";
+            }else{
+                echo "<p> " . $i . " não é par <p>";
+            }
+        }
     ?>
